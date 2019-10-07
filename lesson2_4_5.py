@@ -1,5 +1,3 @@
-from selenium import webdriver
-
 browser = webdriver.Chrome()
 	# говорим WebDriver искать каждый элемент в течение 5 секунд
 	browser.implicitly_wait(5)
